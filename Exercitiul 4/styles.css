@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header {
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+}
+.date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 15px;
+}
+.paragraf {
+    display: flex;
+    gap: 5px;
+    margin: 25px;
+}
+main {
+    padding: 25px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 20px;
+   
+    border: 1px solid black;
+}
+.paragraf {
+    padding: 15px;
+    width: 95%;
+    margin: 30px auto;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+footer {
+    background-color: gray;
+    padding: 5px;
+    margin-top: 297px;
+}
